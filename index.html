@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorial</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Anime List</h1>
+		  <p>Anime for cool people</p>
+		  <a href="https://myanimelist.net/">more anime</a>
+          <form id="search-anime">
+            <input type="text" placeholder="Look up anime..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="anime-list">
+	    	<h2 class="title">Animes watched</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">B: The Beginning</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Death Note</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Tokyo Ghoul</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Erased</span>
+	    			<span class="delete">delete</span>
+                </li>
+	    	</ul>
+	    </div>
+	    <form id="add-anime">
+			<input type="checkbox" id="hide"/>
+			<label for="hide">Hide anime list</label>
+	    	<input type="text" placeholder="Add an anime :)" />
+	    	<button>Add</button>
+		</form>
+		
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
